@@ -1,12 +1,19 @@
-import React from 'react';
+import React from "react";
 
-const Todo = (props) =>{
-    return(
+const Todo = props => {
+    return (
         <div className="todo-container">
-        {props.todo} 
-        <button className="button">Del</button>
+            <span className="todo-text">{props.todo}</span>
+            <button
+                className="button"
+                onClick={() => {
+                    props.onDelete(props.id);
+                }}
+            >
+                Delete
+            </button>
         </div>
-    )
-}
+    );
+};
 
 export default Todo;
