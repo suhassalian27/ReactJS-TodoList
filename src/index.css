@@ -1,3 +1,73 @@
-*,html{
-  /* height: 100vh; */
+html,
+body {
+    height: 95vh;
+    width: 95vw;
+}
+body {
+    background-color: rgb(39, 100, 141);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer-container {
+    background-color: rgba(23, 58, 82, 0.9);
+    box-shadow: 2px 2px 5px black;
+    width: 70vw;
+    margin: auto;
+    padding: 1rem;
+}
+
+.card-header {
+    text-align: center;
+}
+.todo-container {
+    background-color: rgba(19, 47, 66, 0.9);
+    padding: 8px;
+    margin: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.todo-container button {
+    float: right;
+    border: none;
+    width: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+}
+.todo-text{
+  cursor: pointer;
+}
+.input-container {
+    margin-bottom: 40px;
+}
+.input-container input {
+    width: 99%;
+    height: 40px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+.input-container button {
+    width: 48%;
+}
+.input-container .submit-button {
+    float: left;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    color: white;
+    background-color: green;
+    height: 40px;
+}
+.input-container .clear-button {
+    float: Right;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px 0;
+    color: white;
+    background-color: rgb(129, 129, 129);
+    height: 40px;
 }
