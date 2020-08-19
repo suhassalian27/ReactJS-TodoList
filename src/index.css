@@ -1,10 +1,8 @@
-html,
-body {
-    height: 95vh;
-    width: 95vw;
-}
+
 body {
     background-color: rgb(39, 100, 141);
+background: -webkit-linear-gradient(to left, #004e92, rgb(39, 100, 141)); 
+background: linear-gradient(to left, #004e92, rgb(39, 100, 141));
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +15,12 @@ body {
 }
 
 .card-header {
+  font-size: 1rem;
     text-align: center;
+}
+.todolist-container h1{
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 1.2rem;
 }
 .todo-container {
     background-color: rgba(19, 47, 66, 0.9);

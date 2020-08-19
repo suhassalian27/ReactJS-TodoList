@@ -6,7 +6,7 @@ import InputForm from "./component/InputForm";
 
 class App extends Component {
     state = {
-        tasks: ["Task First", "Second Tasks", "Third Tasks"]
+        tasks: []
     };
 
     handleDelete = index => {

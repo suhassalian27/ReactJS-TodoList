@@ -10,7 +10,7 @@ const TodoList = props => {
     if (todo.length === 0) {
         text = <h1>You dont have any task. Add task below.</h1>;
     } else {
-        text = <h1>{todo}</h1>;
+        text = <span>{todo}</span>;
     }
     return (
         <div className="todolist-container">
