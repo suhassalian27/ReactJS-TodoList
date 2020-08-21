@@ -8,7 +8,7 @@ const TodoList = props => {
 
     let text;
     if (todo.length === 0) {
-        text = <h1>You dont have any task. Add task below.</h1>;
+        text = <h1>You dont have any task. Add task.</h1>;
     } else {
         text = <span>{todo}</span>;
     }
